@@ -21,11 +21,12 @@
     "@mui/icons-material": "^6.1.2",
     "@mui/material": "^5.16.7"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo git@github.com:nondangerman/chopi.git",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
